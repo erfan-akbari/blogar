@@ -1,0 +1,49 @@
+.register-comment {
+    padding: 2rem 1rem;
+}
+
+.register-comment__title {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.register-comment__warning {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    color: var(--color-midgray);
+}
+
+.register-comment__form {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 1.4rem;
+}
+
+.form-group {
+    width: 32%;
+}
+
+.form-group-100 {
+    width: 100%;
+}
+
+.form-control {
+    font-size: 1.6rem;
+}
+
+.form-label {
+    font-size: 1.6rem;
+}
+
+.btn-primary {
+    font-size: 1.8rem;
+}
+
+.form-check-input {
+    float: right;
+    margin-left: 1rem;
+}

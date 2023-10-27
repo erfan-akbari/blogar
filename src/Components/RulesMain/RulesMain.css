@@ -1,0 +1,37 @@
+.rules-main {
+    max-width: 100rem;
+}
+
+.rules-main__paragraph {
+    font-size: 2rem;
+    padding: 2rem 0;
+    line-height: 1.5;
+}
+.rules-main__title {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.rules-main__section-title {
+    margin-bottom: 6rem;
+    padding-bottom: 1.5rem;
+    border-bottom: .4rem solid var(--color-primary);
+    width: max-content;
+}
+
+.rules-main__subtitle {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.rules-main__list {
+    margin: 3rem 0;
+}
+
+.rules-main__list li {
+    list-style-type: square;
+    font-size: 2rem;
+    padding: 1rem 0;
+    margin-right: 2rem;
+}

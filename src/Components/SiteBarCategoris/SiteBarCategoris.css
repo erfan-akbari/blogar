@@ -1,0 +1,33 @@
+/* Start =========== Style categoris */
+
+.sitebar__categoris {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.sitebar__categoris-box {
+    padding: 1rem;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1.5rem;
+    background-color: var(--color-extra03);
+    box-shadow: var(--shadow-light);
+    border-radius: 1rem;
+}
+
+.sitebar__categoris-img {
+    border-radius: 50%;
+}
+
+/* Finish =========== Style categoris */
+
+@media (max-width: 992px) {
+    .sitebar__categoris {
+        margin-top: 5rem;
+    }
+}

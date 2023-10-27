@@ -1,0 +1,12 @@
+/* Start =========== Style Instagram */
+
+.sitebar__instagram-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Finish =========== Style Instagram */

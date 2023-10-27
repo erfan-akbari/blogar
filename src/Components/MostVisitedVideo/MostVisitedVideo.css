@@ -1,0 +1,24 @@
+.most-visited-video__list {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.most-visited-video__caption {
+    padding-top: 2rem;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.most-visited-video__banner {
+    width: 100%;
+}
+
+.most-visited-video__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}

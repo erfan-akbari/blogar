@@ -1,0 +1,50 @@
+.Topbar {
+    background-color: var(--color-lightest);
+}
+
+.Topbar__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.Topbar__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Topbar__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    color: var(--color-midgray);
+}
+
+.Topbar__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .Topbar__wrapper {
+        gap: 1rem;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .Topbar__right {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

@@ -1,0 +1,34 @@
+/* Start =========== Style sitebar search */
+
+.sitebar__search-box-input-wrapper {
+    background-color: var(--color-extra04);
+    padding: 1rem;
+    border-radius: 2.5rem;
+    margin-top: 2rem;
+}
+
+.sitebar__search-box-btn,
+.sitebar__search-box-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.sitebar__search-box-btn {
+    color: var(--color-white);
+}
+
+.sitebar__search-box-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-right: 1rem;
+    color: var(--color-white);
+}
+
+.sitebar__search-box-input::placeholder {
+    color: var(--color-white);
+}
+
+
+/* Finish =========== Style sitebar search */

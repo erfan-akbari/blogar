@@ -1,0 +1,42 @@
+
+.Header-Home__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    border-bottom: 0.1rem solid var(--color-lightest);
+}
+
+.main-logo {
+    width: 140px;
+    height: 37px;
+}
+
+
+@media (max-width: 1200px) {
+    .Header-Home__banner-img {
+        width: 690px;
+    }
+}
+
+@media (max-width: 992px) {
+    .Header-Home__banner-img {
+        width: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Header-Home__banner-img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Header-Home__top {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .Header-Home__banner-img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+/* Start =========== Style Post Box Main Main */
+
+.main-home__post {
+    margin-top: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.main-home__post-banner {
+    position: relative;
+}
+
+.main-home__post-content {
+    background-color: var(--color-white);
+    border: .1rem solid var(--color-lightest);
+    padding: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+    transition: all 350ms ease-in;
+}
+
+.main-home__post-content:hover {
+    box-shadow: var(--shadow-dark);
+}
+
+.main-home__post-content-category {
+    color: var(--color-warning);
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-bottom: 2.5rem;
+}
+
+.main-home__post-content-title {
+    color: var(--color-dark);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    display: block;
+}
+
+.main-home__post-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-home__post-content-wrapper-username {
+    color: var(--color-midgray);
+    margin-bottom: 1rem;
+    transition: all 150ms ease-in;
+    cursor: pointer;
+}
+
+.main-home__post-content-wrapper-username:hover {
+    color: var(--color-primary);
+}
+
+.main-home__post-content-list {
+    color: var(--color-midgray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Finish =========== Style Post Box Main Main */
+
+@media (max-width: 576px) {
+    .main-home__post {
+        flex-direction: column;
+        gap: 0;
+    }
+}

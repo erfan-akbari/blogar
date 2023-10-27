@@ -1,0 +1,39 @@
+.instagram-s {
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .instagram-s {
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .instagram-s img {
+        width: 15rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .instagram-s {
+        gap: 1rem;
+    }
+    .instagram-s img {
+        width: 23rem;
+    }
+}
+
+@media (max-width: 485px) {
+    .instagram-s {
+        gap: 0;
+    }
+    .instagram-s img {
+        width: 45rem;
+    }
+}
+

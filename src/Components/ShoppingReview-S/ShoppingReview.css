@@ -1,0 +1,37 @@
+/* Style */
+.shopping-review {
+    background-color: var(--color-lightest);
+    padding: 5rem 0;
+}
+
+.shopping-review__banner {
+    margin-top: 2rem;
+}
+
+/* Style Boxes */
+
+.shopping-review__boxes {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 2rem;
+}
+
+/* Score Box */
+.__num {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    padding: 1rem;
+    background-color: var(--color-secondary-alt);
+    color: var(--color-white);
+    font-weight: 600;
+    border-radius: 1rem;
+}
+
+@media (max-width: 992px) {
+    .shopping-review__boxes {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

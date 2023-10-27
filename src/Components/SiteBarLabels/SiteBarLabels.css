@@ -1,0 +1,16 @@
+.sitebar-labels__list {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.sitebar-labels__item {
+    padding: 1rem;
+    border: .1rem solid var(--color-body);
+    color: var(--color-body);
+    border-radius: 2rem;
+    font-weight: bold;
+}

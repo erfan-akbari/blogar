@@ -1,0 +1,96 @@
+.Most-Visited-Section {
+    padding: 5rem 0;
+}
+
+.Most-Visited-Section__wrapper-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Most-Visited-Section__category-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.Most-Visited-Section__category-button {
+   background-color: transparent;
+    color: var(--color-gray);
+    border: .1rem solid var( --color-border);
+    border-radius: .5rem;
+    padding: 1.5rem 3rem;
+}
+
+/* add class for active button */
+.cat-btn-active {
+    box-shadow: var(--shadow-primary);
+    border: none;
+}
+/* add class for active button */
+
+.Most-Visited-Section__posts-left {
+    margin-top: 5rem;
+    position: relative;
+}
+
+.Post-Banner__text {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    color: var(--color-white);
+}
+
+.Most-Visited-Section__wrapper-title {
+    margin: 1rem 0;
+    color: var(--color-warning);
+    font-size: 1.8rem;
+}
+
+.Most-Visited-Section__wrapper-subTitle {
+    font-weight: bold;
+    color: #fff;
+}
+
+.Most-Visited-Section__posts-right {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 300ms ease-in-out;
+}
+
+.Most-Visited-Section__posts-box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.Most-Visited-Section__posts-box-img {
+    border-radius: .5rem;
+}
+
+.Most-Visited-Section__posts-box-content-title {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: var(--color-warning);
+}
+
+.Most-Visited-Section__posts-box-content-desc {
+    color: #000;
+}
+
+.Most-Visited-Section__posts-box-content-desc:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+    .Most-Visited-Section__posts-left {
+        margin-top: auto;
+    }
+}

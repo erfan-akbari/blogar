@@ -1,0 +1,11 @@
+.more-content {
+    background-color: var(--color-lightest);
+    padding: 5rem 0;
+    margin: 5rem 0;
+}
+
+.more-content__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}

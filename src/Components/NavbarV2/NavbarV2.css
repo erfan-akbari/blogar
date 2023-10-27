@@ -1,0 +1,29 @@
+.navbarv2 {
+    box-shadow: var(--shadow-primary);
+    margin-bottom: 3rem;
+}
+
+.navbarv2__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarv2__logo {
+    width: 11rem;
+}
+
+.navbarv2__navbar-logo {
+    margin-left: 6rem;
+}
+
+@media (max-width: 768px) {
+    .navbarv2__wrapper {
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+    .navbarv2__logo {
+        width: 15rem;
+        margin-right: 6rem;
+    }
+}

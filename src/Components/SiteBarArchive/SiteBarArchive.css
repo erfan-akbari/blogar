@@ -1,0 +1,9 @@
+.sitebar-archive__list {
+    list-style-type: square;
+    padding: 2rem;
+}
+
+.sitebar-archive__item {
+    color: var(--color-midgray);
+    margin: 1rem 0;
+}

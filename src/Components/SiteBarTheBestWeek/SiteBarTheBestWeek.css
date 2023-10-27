@@ -1,0 +1,30 @@
+/* Start =========== Style thebest week */
+
+.sitebar__thebestweek-box {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.sitebar__thebestweek-content {
+    margin-right: 2rem;
+    padding: 2rem;
+}
+
+.sitebar__thebestweek-title {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.sitebar__thebestweek-caption {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1.5rem;
+}
+
+.sitebar__thebestweek-item {
+    color: var(--color-midgray);
+}
+
+/* Finish =========== Style thebest week */

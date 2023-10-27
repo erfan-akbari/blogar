@@ -1,0 +1,38 @@
+.Post-Banner {
+    background-color: var(--color-lightest);
+    padding: 40px;
+    z-index: -99;
+}
+
+.Post-Banner__wrapper {
+    width: max-content;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.Post-Banner__wrapper-img {
+    width: 100%;
+}
+
+.Post-Banner__wrapper-title {
+    margin: 1rem 0;
+    color: var(--color-warning);
+    font-size: 1.8rem;
+}
+
+.Post-Banner__wrapper-subTitle {
+    font-weight: 600;
+    color: #000;
+}
+
+.Post-Banner__wrapper-subTitle-1 {
+    color: #fff;
+}
+
+.Most-Visited-Section__text {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    color: var(--color-white);
+}

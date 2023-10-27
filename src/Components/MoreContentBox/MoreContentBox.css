@@ -1,0 +1,17 @@
+.more-content-box__img {
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+.more-content-box__cat {
+    display: block;
+    color: var(--color-warning);
+    margin: 1rem 0;
+}
+
+.more-content-box__title {
+    display: block;
+    max-width: 29rem;
+    line-height: 1.4;
+    color: var(--color-body);
+}

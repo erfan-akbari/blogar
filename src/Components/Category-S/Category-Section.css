@@ -1,0 +1,58 @@
+.Category-Section {
+    background-color: var(--color-lightest);
+    padding-bottom: 5rem;
+}
+
+.Category-Section__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Category-Section__box-title {
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+/* Start Style css swiper slide */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Fnish Style css swiper slide */
+
+@media (max-width: 460px) {
+    .Category-Section__wrapper {
+        justify-content: center;
+    }
+
+    .Category-Section__box__img {
+        height: 200px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Category-Section__wrapper {
+        justify-content: space-evenly;
+    }
+}

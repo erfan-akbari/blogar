@@ -1,0 +1,148 @@
+{
+    "categoris": [
+        {
+            "href": "sports",
+            "img": "/images/Category-Section/post-sm-01.jpg",
+            "title": "ورزشی"
+        },
+        {
+            "href": "Technology ",
+            "img": "/images/Category-Section/post-sm-02.jpg",
+            "title": "فناوری و اطلاعات"
+        },
+        {
+            "href": "politics",
+            "img": "/images/Category-Section/post-sm-03.jpg",
+            "title": "سیاست"
+        },
+        {
+            "href": "food",
+            "img": "/images/Category-Section/post-sm-04.jpg",
+            "title": "رستوران و کافی شاپ"
+        },
+        {
+            "href": "life style",
+            "img": "/images/Category-Section/post-sm-05.jpg",
+            "title": "سبک زندگی"
+        },
+        {
+            "href": "animals",
+            "img": "/images/Category-Section/post-sm-06.jpg",
+            "title": "حیوانات"
+        },
+        {
+            "href": "medical",
+            "img": "/images/Category-Section/post-sm-01.jpg",
+            "title": "پزشکی"
+        },
+        {
+            "href": "software",
+            "img": "/images/Category-Section/post-sm-02.jpg",
+            "title": "نرم افزار"
+        },
+        {
+            "href": "tourism",
+            "img": "/images/Category-Section/post-sm-03.jpg",
+            "title": "گردشگری"
+        }
+    ],
+    "posts": [
+        {
+            "_id": 1,
+            "catName": "گجت",
+            "createdAt": "17 مرداد,1400",
+            "src": "/images/Main-Home/post-test-tech-01.jpg",
+            "studyperiod": "3 دقیقه زمان برای مطالعه",
+            "title": "۱۳ زبان به آپدیت جدید کلاب‌هاوس اضافه شد",
+            "userName": "طاها عشقی"
+        },
+        {
+            "_id": 2,
+            "catName": "برنامه نویسی",
+            "createdAt": "20 اردیبهشت,1400",
+            "src": "/images/Main-Home/post-test-tech-02.jpg",
+            "studyperiod": "10 دقیقه زمان برای مطالعه",
+            "title": "هوش مصنوعی به کمک برنامه‌نویسان می‌آید",
+            "userName": "جواد اسرافی"
+        },
+        {
+            "_id": 3,
+            "catName": "طراحی اپلیکیشن",
+            "createdAt": "2 تیر,1400",
+            "src": "/images/Main-Home/post-test-tech-03.jpg",
+            "studyperiod": "11 دقیقه زمان برای مطالعه",
+            "title": "نخستین ویدئو کامل از مک بوک پرو",
+            "userName": "عرفان اصغری"
+        },
+        {
+            "_id": 4,
+            "catName": "نرم افزار",
+            "createdAt": "1 فروردین,1400",
+            "src": "/images/Main-Home/post-test-tech-04.jpg",
+            "studyperiod": "6 دقیقه زمان برای مطالعه",
+            "title": "محبوب‌ترین زبان برنامه‌نویسی کدام است؟",
+            "userName": "خلیل اکبری"
+        },
+        {
+            "_id": 5,
+            "catName": "شبکه",
+            "createdAt": "22 اسفند,1399",
+            "src": "/images/Main-Home/post-test-tech-05.jpg",
+            "studyperiod": "8 دقیقه زمان برای مطالعه",
+            "title": "هدف از راه‌اندازی شبکه ملی اطلاعات چیست؟",
+            "userName": "یوسف قربانپور"
+        }
+    ],
+    "shoppingposts": [
+        {
+            "_id": 1,
+            "catName": "موبایل",
+            "createdAt": "17 مرداد,1400",
+            "src": "/images/Shopping-Review/post-tech-11.jpg",
+            "studyperiod": "3 دقیقه زمان برای مطالعه",
+            "title": "بررسی سریع Motorola Moto E (2020) و Moto G: اصول اولیه گوشی های هوشمند",
+            "userName": "نصرت اسراء"
+        },
+        {
+            "_id": 2,
+            "catName": "موبایل",
+            "createdAt": "20 اردیبهشت,1400",
+            "src": "/images/Shopping-Review/post-tech-12.jpg",
+            "studyperiod": "10 دقیقه زمان برای مطالعه",
+            "title": "بررسی Dell XPS 15 (2020): طراحی جدید، مشکلات جدید",
+            "userName": "ایرین پروین"
+        },
+        {
+            "_id": 3,
+            "catName": "موبایل",
+            "createdAt": "2 تیر,1400",
+            "src": "/images/Shopping-Review/post-tech-13.jpg",
+            "studyperiod": "11 دقیقه زمان برای مطالعه",
+            "title": "هدفون های Wf-sp800n سونی یک جایگزین حذف نویز هستند.",
+            "userName": "رفا اسلام"
+        },
+        {
+            "_id": 4,
+            "catName": "موبایل",
+            "createdAt": "1 فروردین,1400",
+            "src": "/images/Shopping-Review/post-tech-14.jpg",
+            "studyperiod": "6 دقیقه زمان برای مطالعه",
+            "title": "تماس خودکار و تصادفی گوشی‌های پیکسل به مخاطبان کاربران",
+            "userName": "کانک اسلام"
+        }
+    ],
+    "users": {
+        "-NcfnuqD3RGkhLvhlFe5": {
+            "email": "erfan-akbari@gmail.com",
+            "password": "123456789",
+            "role": "USER",
+            "userName": "erfan-akbari"
+        },
+        "-NcfrPDkPfCheXIdqBo5": {
+            "email": "yosef@gmail.com",
+            "password": "12345678",
+            "role": "ADMIN",
+            "userName": "yosef love"
+        }
+    }
+}

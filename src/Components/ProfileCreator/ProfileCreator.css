@@ -1,0 +1,41 @@
+.profile-creator {
+    width: 100%;
+    border-bottom: .1rem solid var(--color-midgray);
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-creator__right {
+    flex-basis: 20%;
+}
+
+.profile-creator__img {
+    border-radius: 50%;
+}
+
+.profile-creator__left {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.profile-creator__name {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.profile-creator__job {
+    display: block;
+    color: var(--color-midgray);
+}
+
+.profile-creator__description {
+    line-height: 1.6;
+    font-size: 1.6rem;
+}

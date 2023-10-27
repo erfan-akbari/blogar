@@ -1,0 +1,23 @@
+.sitebar-recentcontent__list {
+    margin-top: 2rem;
+}
+
+.sitebar-recentcontent__link {
+    color: var(--color-body);
+}
+
+.sitebar-recentcontent__item {
+    margin-top: 2rem;
+}
+
+.sitebar-recentcontent__wrapper {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+}
+
+.sitebar-recentcontent__caption {
+    color: var(--color-midgray);
+}

@@ -1,0 +1,24 @@
+
+/* Style Buttons */
+.shopping-review__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.shopping-review__button {
+    background-color: var(--color-white);
+    color: var(--color-gray);
+    border: 0.1rem solid var(--color-border);
+    border-radius: 0.5rem;
+    padding: 1.5rem 3rem;
+}
+
+.shopping-review__button--active {
+    background-color: var(--color-extra03);
+    box-shadow: var(--shadow-primary);
+    border: none;
+}

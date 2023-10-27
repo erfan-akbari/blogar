@@ -1,0 +1,38 @@
+.comment {
+    display: flex;
+    gap: 2rem;
+    margin: 5rem 0;
+}
+
+.comment-answer {
+    margin-right: 10rem;
+}
+
+.comment__img {
+    border-radius: 50%;
+}
+
+.comment__name {
+    font-size: 1.8rem;
+    color: var(--color-gray);
+}
+
+.comment__date {
+    color: var(--color-midgray);
+    margin-top: 1rem;
+}
+
+.comment__text {
+    margin-top: 2rem;
+    max-width: 70rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 576px) {
+    .comment {
+        margin-right: 1rem;
+    }
+    .comment-answer {
+        margin-right: 5rem;
+    }
+}

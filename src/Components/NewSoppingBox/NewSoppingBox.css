@@ -1,0 +1,26 @@
+.new-sopping-box {
+    border-radius: 1rem;
+    background-color: var(--color-white);
+}
+
+.new-sopping-box__content {
+    padding: 2rem;
+}
+
+.new-sopping-box__subtitle {
+    color: var(--color-warning);
+}
+
+.new-sopping-box__title {
+    color: var(--color-heading);
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.new-sopping-box:hover .new-sopping-box__title {
+    text-decoration: underline;
+}
+
+.new-sopping-box__banner {
+    position: relative;
+}

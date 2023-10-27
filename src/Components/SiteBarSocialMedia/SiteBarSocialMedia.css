@@ -1,0 +1,30 @@
+/* Start =========== Style Social Media */
+
+.sitebar__social-media-list {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sitebar__social-media-item {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-extra04);
+    border-radius: 50%;
+    transition: all 250ms ease;
+}
+
+.sitebar__social-media-item:hover {
+    background-color: var(--color-primary);
+}
+
+.sitebar__social-media-link {
+    color: var(--color-white);
+}
+
+/* Finish =========== Style Social Media */
