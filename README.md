@@ -24,7 +24,7 @@ Blogar project developed with `create-react-app`
 
 ```javascript
 
-const moviePlus = () => {
+const blogar = () => {
  let packages = [
   'React',
   'bootstrap',
